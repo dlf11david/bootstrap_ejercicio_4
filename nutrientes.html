@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ejercicio 1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/df872b45a7.js" crossorigin="anonymous"></script>
+    </head>
+
+    <style>
+      a i {
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+
+    <body>
+        
+        <div class="container" style="text-align: center;">
+
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="bootstrap.png" width="38" height="30" class="d-inline-block align-top" alt="">
+                    Web de recetas
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nutrientes.html">Nutrientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registro</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Información
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sobre nosotros</a></li>
+                      <li><a class="dropdown-item" href="#">Preguntas frequentes</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+            <br><br><br>
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Macronutrientes</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Minerales</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                
+                <table class="table table-striped table-bordered table-responsive">
+                  <tr>
+                    <th>Receta</th>
+                    <th>Proteinas</th>
+                    <th>Hidratos</th>
+                    <th>Grasas</th>
+                  </tr>
+                  <tr>
+                    <td>Hamburguesa</td>
+                    <td>40g</td>
+                    <td>30g</td>
+                    <td>80g</td>
+                  </tr>
+                  <tr>
+                    <td>Pizza</td>
+                    <td>20g</td>
+                    <td>50g</td>
+                    <td>70g</td>
+                  </tr>
+                  <tr>
+                    <td>Sushi</td>
+                    <td>50g</td>
+                    <td>80g</td>
+                    <td>20g</td>
+                  </tr>
+                </table>
+
+              </div>
+              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                
+                <table class="table table-striped table-bordered table-responsive">
+                  <tr>
+                    <th>Receta</th>
+                    <th>Hierro</th>
+                    <th>Zing</th>
+                    <th>Magnesio</th>
+                    <th>Calcio</th>
+                  </tr>
+                  <tr>
+                    <td>Hamburguesa</td>
+                    <td>6g</td>
+                    <td>4g</td>
+                    <td>7g</td>
+                    <td>2g</td>
+                  </tr>
+                  <tr>
+                    <td>Pizza</td>
+                    <td>2g</td>
+                    <td>5g</td>
+                    <td>7g</td>
+                    <td>8g</td>
+                  </tr>
+                  <tr>
+                    <td>Sushi</td>
+                    <td>10g</td>
+                    <td>11g</td>
+                    <td>3g</td>
+                    <td>1g</td>
+                  </tr>
+                </table>
+
+              </div>
+            </div>
+
+            <br><br>
+
+            <a href="home.html">
+              <i class="fa-solid fa-house"></i>
+            </a>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
